@@ -1,0 +1,20 @@
+# 忽略模型文件和大文件
+Model/
+*.pt
+*.bin
+*.ckpt
+*.h5
+*.pkl
+*.npz
+*.log
+*.tmp
+*.swp
+__pycache__/
+.DS_Store
+.env
+.idea/
+.vscode/
+# 忽略 Jupyter Notebook 检查点
+.ipynb_checkpoints/
+# 忽略 Python 虚拟环境
+myenv/
